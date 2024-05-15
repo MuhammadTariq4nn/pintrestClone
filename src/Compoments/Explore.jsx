@@ -56,7 +56,7 @@ Loading...
                             
                             <div className="product mt-3 w-[45%] flex flex-col items-start hover:cursor-pointer sm:w-52">
                             <Link key={product.id} to={`/Explore/productOverView/${product.id}`}>
-                             <img className='w-full object-cover rounded-2xl' src={product.images[1]} alt="" />
+                             <img className='w-full object-cover rounded-2xl' src={product.images[2]} alt="" />
                              <h1 className='font-semibold px-1 text-sm'>{product.title}</h1>
                              <p className='px-1 text-sm leading-5'>{product.description.substring(0,55)}...</p>
                              <div>
