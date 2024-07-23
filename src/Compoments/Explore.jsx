@@ -56,12 +56,12 @@ Loading...
                             
                             <div className="product mt-3 w-[45%] flex flex-col items-start hover:cursor-pointer sm:w-52">
                             <Link key={product.id} to={`/Explore/productOverView/${product.id}`}>
-                             <img className='w-full object-cover rounded-2xl' src={product.images[2]} alt="" />
+                             <img className='w-full object-cover rounded-2xl' src={product.images[0]} alt="" />
                              <h1 className='font-semibold px-1 text-sm'>{product.title}</h1>
                              <p className='px-1 text-sm leading-5'>{product.description.substring(0,55)}...</p>
                              <div>
                                <div className="profile mt-2 px-1 flex items-center gap-2">
-                                <img className='w-8 h-8 rounded-full object-cover' src={product.images[3]} alt="" />
+                                <img className='w-8 h-8 rounded-full object-cover' src={product.images[0]} alt="" />
                                 <p className='text-xs font-semibold'>{product.brand}</p>
                                </div>
                              </div>
@@ -84,12 +84,12 @@ Loading...
                             <>
                             <div className="product  w-[45%] flex flex-col items-start hover:cursor-pointer sm:w-52">
                             <Link key={product.id} to={`/Explore/productOverView/${product.id}`}>
-                             <img className='w-full object-cover rounded-2xl' src={product.images[2]} alt="" />
+                             <img className='w-full object-cover rounded-2xl' src={product.images[0]} alt="" />
                              <h1 className='font-semibold px-1 text-sm'>{product.title}</h1>
                              <p className='px-1 text-sm leading-5'>{product.description.substring(0,55)}...</p>
                              <div>
                                <div className="profile mt-2 px-1 flex items-center gap-2">
-                                <img className='w-8 h-8 rounded-full object-cover' src={product.images[3]} alt="" />
+                                <img className='w-8 h-8 rounded-full object-cover' src={product.images[0]} alt="" />
                                 <p className='text-xs font-semibold'>{product.brand}</p>
                                </div>
                              </div>
